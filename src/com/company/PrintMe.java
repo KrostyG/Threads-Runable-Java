@@ -17,7 +17,7 @@ public class PrintMe implements Runnable{
         System.out.println(hilo.getName()+" iniciando.");
         try {
             for (int i=0; i<11;i++){
-                Thread.sleep(2000);
+                Thread.sleep(2562);
                 System.out.println("En "+hilo.getName()+ ", el recuento es "+i);
             }
         }catch (InterruptedException exc){
